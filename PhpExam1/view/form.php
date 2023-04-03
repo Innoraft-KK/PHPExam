@@ -20,44 +20,6 @@ session_start();
     <title>Checkout</title>
   </head>
   <body>
-    <!-- <header>
-      <div class="container flexme">
-        <div class='logo'><a href="../view/feed.php"><img src="./WebImages/logo.png" alt=""></a></div>
-        <nav>
-          <ul class="flexme">           
-            <?php
-           /*  $user_id=$_SESSION['user_id'];
-            if( !empty($_SESSION['mail']) && !empty($_SESSION['user_id']))
-            { 
-              echo "<li><a href='../view/Profile.php?user_id=".$_SESSION['user_id']."'>My Profile</a></li>";
-              echo "<li><a href='../view/CreatePost.php'><i class='fa-solid fa-pen-to-square'></i> </a></li>";
-              echo "<li><a href='../controller/Logout.php'><i class='fa-solid fa-arrow-right-from-bracket'></i></a></li>";
-            }
-            else{
-              echo "<li><a href='../view/Login.php'>Login</a></li>";
-              echo "<li><a href='../view/RegistrationPage.php'>SignUP</a></li>";
-            } */
-            ?>
-            
-          </ul>
-        </nav>
-      </div>
-    </header> -->
-    <?php
-   /*  if(isset($_SESSION['status'])){
-      echo
-      "<div class='alert'>
-      <span class='closebtn' onclick=";
-      echo "this.parentElement.style.display='none';";
-      echo">&times;</span> ";
-      echo "<strong>";
-      echo  $_SESSION['status'];
-      echo "</strong>
-      </div>";
-      unset($_SESSION['status']);
-     } */
-   
-    ?>
     <form action="../controller/Checkout.php" method="post">
       <h2>Checkout</h2>
         <div>
