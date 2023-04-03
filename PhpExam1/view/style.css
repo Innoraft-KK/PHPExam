@@ -1,0 +1,14 @@
+.flexme{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+h2{
+    font-size: 5rem;
+    margin:25px 0;
+}
